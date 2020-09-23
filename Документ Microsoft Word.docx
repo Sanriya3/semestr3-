@@ -1,0 +1,6 @@
+#b1{width:200px;border:2px sold pink;height:100px;
+border:2px solid black;}
+
+#sp1{font: 12pt/10pt sans-serif;
+background-image: url(logo1.png);
+background-repeat: no-repeat;}
