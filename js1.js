@@ -37,7 +37,7 @@ $('b1').style.borderColor="blue";
 
 function js1_f6()
 {
-$('b1').style.borderColor="velvet";
+$('b1').style.borderColor="purple";
 }
 
 function js1_f7()
