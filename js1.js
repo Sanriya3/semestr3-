@@ -72,12 +72,12 @@ $('b7').style.font="caption";
 
 function js1_f13()
 {
-$('b8').style.letterSpacing="inherit";
+$('b8').style.letterSpacing="-1px";
 }
 
 function js1_f14()
 {
-$('b8').style.letterSpacing="normal";
+$('b8').style.letterSpacing="10px";
 }
 
 function js1_f15()
