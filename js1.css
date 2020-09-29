@@ -5,3 +5,7 @@
 #sp1{font: 12pt/10pt sans-serif;
 background-image: url(logo1.png);
 background-repeat: no-repeat;}
+
+#b6{width:200px;
+  border:2px solid pink;
+  height:100px;}
