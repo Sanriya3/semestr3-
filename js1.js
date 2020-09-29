@@ -72,7 +72,7 @@ $('b7').style.font="caption";
 
 function js1_f13()
 {
-$('b8').style.letterSpacing="-1px";
+$('b8').style.letterSpacing="2px";
 }
 
 function js1_f14()
