@@ -5,3 +5,6 @@
 #sp1{font: 12pt/10pt sans-serif;
 background-image: url(logo1.png);
 background-repeat: no-repeat;}
+
+#b13{border-style: double; 
+  padding: 7px;}
