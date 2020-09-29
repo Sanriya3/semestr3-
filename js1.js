@@ -52,12 +52,12 @@ $('b5').style.borderRightStyle="double";
 
 function js1_f9()
 {
-$('b6').style.borderWidth="3px 7px 7px 4px";
+$('b13').style.borderWidth="3px 7px 7px 4px";
 }
 
 function js1_f10()
 {
-$('b6').style.borderWidth="6px 14px 14px 8px";
+$('b13').style.borderWidth="6px 14px 14px 8px";
 }
 
 function js1_f11()
