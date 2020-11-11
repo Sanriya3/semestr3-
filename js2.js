@@ -10,9 +10,5 @@ elements.push(element);
 } 
 return elements; } 
 
-function js2_f2()
-<form>
+function js1_f1()
 
-<input type='button' value='Calculate' onClick='calculation()'>
-
-</form>
