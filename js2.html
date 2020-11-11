@@ -1,37 +1,37 @@
 <html>
-<body>
+
+<head>
+
 <script language='JavaScript'>
 
 <!- hide
 
-function myFunction() {
+function calculation() {
 
-document.write('Добро пожаловать на мою страницу!<br>');
+var x= 12;
 
-document.write('Это JavaScript!<br>');
+var y= 5;
+
+var result= x + y;
+
+alert(result);
 
 }
-
-myFunction();
-
-myFunction();
 
 // — >
 
 </script>
 
+</head>
 
-<!--
-function calc() {
-   document.myform4.exp.value =
-      eval(document.myform4.exp.value);
-}
-//-->
-</SCRIPT>
-<FORM NAME="myform4">
-<INPUT NAME="exp" TYPE="text" SIZE=50><P>
-<INPUT TYPE="button" VALUE=" Вперед " ONCLICK="calc();"> 
-</FORM>
-  <br>
-   </body>
-   </html>
+<body>
+
+<form>
+
+<input type='button' value='Calculate' onClick='calculation()'>
+
+</form>
+
+</body>
+
+</html>
