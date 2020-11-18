@@ -50,6 +50,25 @@
     clear: both; /* Отмена обтекания */ 
    }
   </style>
+ <script>
+  function g() 
+  {if(document.getElementById("ss2").selectedIndex==0)
+document.getElementById("pic1").src ="p0.png";
+ 
+if(document.getElementById("ss2").selectedIndex==1)
+document.getElementById("pic1").src ="p1.png";
+ 
+if(document.getElementById("ss2").selectedIndex==2)
+document.getElementById("pic1").src ="p2.png";
+
+   if(document.getElementById("ss2").selectedIndex==3)
+document.getElementById("pic1").src ="p3.png";
+  }
+  
+  function r()
+  {document.getElementById("tt1").value="Привет, Мир!!!";}
+  
+  </script>
  </head>
  <body>
   <div id="container">
@@ -58,8 +77,16 @@
     <h2>Сайт-звіт до лабораторних робіт студентки 2 курсу групи "Математика.(Середня освіта)" Пєліван Валерії</h2>
    <h2>Лабораторна робота №2</h2>
    <p>5. Создать выпадающее меню, с помощью которого можно выбрать масть карты, которая будет отображаться вместо присутствующей в гипертекстовом документе картины (создайте минимум четыре варианта выбора). Создайте обработку события наезда на картинку мышки появлением строки «ПРИВЕТ,МИР» в одностроковом поле ввода информации некоторой формы данного документа.</p>
-
-
+<form action="" method="get">
+ <select name="sl2" id="ss2" onchange="g()">
+<option value="значення1"> 7 Чирва </option>
+<option value="значення2"> 6 Хрест </option>
+<option value="значення3"> 9 Піка </option>
+<option value="значення4"> 10 Бубна </option>
+</select>
+<input type="text" name="tx1" id="tt1" value="значення за замовченням">однострокове текстове поле<br>
+ </form>
+   <img src="lab2.png" alt ="Карта" id="pic1" onmouseover="r()">
    </div>
    <div id="sidebar">
     <p><a href="index.html">Домашня сторінка</a></p>
