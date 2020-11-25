@@ -51,8 +51,17 @@
    }
   </style>
  <script>
-  
-  
+  var today = new Date();
+  function f(x)
+  {document.getElementById('tt1').value=document.getElementById('tt1').value+x;}
+    function g(x)
+ {var t=parseInt(document.getElementById('tt1').value);
+if(x==1) today.setYear(t); 
+if(x==2) today.setMonth(t);
+if(x==3) today.setDate(t);
+  document.getElementById('tt1').value="";}
+  function ff()
+{document.getElementById('tt2').value=today;}
   </script>
  </head>
  <body>
@@ -64,8 +73,17 @@
    <p>ЗАДАНИЕ №5
 Создайте калькулятор, с помощью которого можно выяснить свой знак зодиака и знак года по введенной дате дня рождения.
 </p>
-<form action="" method="get">
- var a = new Date(yyyy,mm,dd)
+<form>
+ <table>
+  <tr><td>Поле введення</td><td colspan "2"><input type "text" name"tx1" id="tt1" value=""></td>></tr>
+  <tr><td><input type "button" id="bb1" value="1" onclick ="f(1)"></td><td><input type "button" id="bb2" value="2" onclick ="f(2)"></td><td><input type "button" id="bb3" value="3" onclick ="f(3)"></td></tr>
+  <tr><td><input type "button" id="bb4" value="4" onclick ="f(4)"></td><td><input type "button" id="bb5" value="5" onclick ="f(5)"></td><td><input type "button" id="bb6" value="6" onclick ="f(6)"></td></tr>
+  <tr><td><input type "button" id="bb7" value="7" onclick ="f(7)"></td><td><input type "button" id="bb8" value="8" onclick ="f(8)"></td><td><input type "button" id="bb9" value="9" onclick ="f(9)"></td></tr>
+ <tr><td><input type "button" id="bb0" value="0" onclick ="f(0)"></td><td><input type "button" id="d1" value="День" onclick ="g(3)"></td><td><input type "button" id="m1" value="Місяць" onclick ="f(3)"></td></tr>
+ <tr><td><input type "button" id="y1" value="Рік" onclick ="g(1)"></td><td colspan "2"><input type "button" id="f1" value="Функція" onclick ="ff"</td>
+  <tr><td>Поле виведення</td><td colspan "2"><input type "text" name"tx2" id="tt2" value=""></td>></tr>
+ </table>
+
  </form>
    <img src="lab2.gif" alt ="Карта" id="pic1" onmouseover="r()">
    </div>
