@@ -62,9 +62,10 @@ if(x==3) today.setDate(t);
   document.getElementById('tt1').value="";}
   function ff()
 {document.getElementById('tt2').value=today;}
-  var d = new Date();
-  d.getDate(1)
-  alert(d)
+  function ss1
+  {var d = new Date();
+  d.getDate(1);
+  alert(d);}
   </script>
  </head>
  <body>
@@ -84,7 +85,9 @@ if(x==3) today.setDate(t);
  <tr><td><input type="button" id="y1" value="Рік" onclick ="g(1)"></td><td colspan="2"><input type="button" id="f1" value="Функція" onclick ="ff()"</td></tr>
   <tr><td>Результат</td><td colspan="2"><input type="text" name="tx2" id="tt2" value=""></td></tr>
  </table>
- </form>
+<input type="submit" name="sb1" id="ss1" value="getDate"><br>
+   </form>
+   
    </div>
    <div id="sidebar">
     <p><a href="index.html">Домашня сторінка</a></p>
