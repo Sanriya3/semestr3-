@@ -61,10 +61,11 @@ if(x==2) today.setMonth(t);
 if(x==3) today.setDate(t);
   document.getElementById('tt1').value="";}
   function ff()
-{document.getElementById('tt2').value=today;}
-  var d = new Date();
+{  var d = new Date(2002,3,29);
   d.getDate(d);
-  alert(d);
+  alert(d);}
+
+  document.getElementById('tt2').value=today;
   </script>
  </head>
  <body>
